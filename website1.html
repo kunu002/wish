@@ -1,0 +1,142 @@
+`<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+<body>
+    <link rel="stylesheet" href="website1.css">
+    <section id="main">
+      <nav>
+        <div class="logo">
+          <img src="logo.jpg" height="40" width="40">
+          <div class="dropdown">
+          <img src="logo.jpg" height="200" width="200">
+        </div>
+        </div>
+        <!--Navigation-->
+        <ul class="menu">
+          <li><a href="#main">Home</a></li>
+          <li><a href="#services">Events</a></li>
+          <li><a href="#worksamples">Work Samples</a></li>
+          <li><a href="#enquiry">Enquiry</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="main-text"><br><br><br><br><br>
+        <marquee><h1>Welcome To Siddhi Audio & Visuals Services</h1></marquee>
+        <p>- I am Jayesh Korde the founder of <i>Siddhi Audio & Visuals Services.</i><br></p><br>
+        <p>- All Event Solutions Under One Roof.</p><br>
+        <p>- SAVS Provides great customer service.</p><br>
+        <p>- We are always quick to respond to your needs</p>
+        
+      </div>
+      </section>
+    <!--Services-->
+    <section id="services">
+      <div class="title">
+        <h2>Events</h2>
+      </div>
+      <div class="content">
+        <div class="service-box" style="background-image:url(https://www.rajwadaevents.com/uploaded-files/category-images/Corporate-Events50_48.jpg); background-repeat:no-repeat; background-size:cover;">
+          <h2 class="shadow">Corporate Events</h2>
+
+        </div>
+
+        <div class="service-box" style="background-image: url(https://mirasee.com/wp-content/uploads/2020/01/alphagamma-MozCon-opportunities-1021x580-1-776x441.jpg); background-repeat:no-repeat; background-size:cover;">
+          <h2 class="shadow">Product Launch</h2>
+        </div>
+        <div class="service-box" style="background-image: url(https://images.unsplash.com/photo-1558008258-3256797b43f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c2VtaW5hcnN8ZW58MHx8MHx8&w=1000&q=80); background-repeat:no-repeat; background-size:cover;">
+          <h2 class="shadow">Seminars</h2>
+
+        </div>
+        <div class="service-box" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb-Ij9P9BsfC32CET228pN-eMazOPdDf4dng&usqp=CAU); background-repeat:no-repeat; background-size:cover;">
+          <h2 class="shadow">Theme Parties</h2>
+        </div>
+      </div>
+    </section>
+    <!--worksamples-->
+    <section id="worksamples">
+      <div class="title"><br>
+        <h2>Work Samples</h2>
+      </div>
+      <div class="content">
+        <div class="service-box3" style="background-image:url(picture1.jpg); background-repeat:no-repeat; background-size:cover;">
+          <h2 class="shadow2">Allergen Sahara Star Event</h2>
+        </div>
+
+        <div class="service-box3" style="background-image: url(picture2.jpg); background-repeat:no-repeat; background-size:cover;">
+          <h2 class="shadow2">Hotel Grand Hyaat</h2>
+        </div>
+        <div class="service-box3" style="background-image: url(picture3.jpg); background-repeat:no-repeat; background-size:cover;">
+          <h2 class="shadow2">Taj Hotel</h2>
+        </div>
+        <div class="service-box3" style="background-image: url(picture4.jpg); background-repeat:no-repeat; background-size:cover;">
+          <h2 class="shadow2">Agilent Technologies</h2>
+        </div>
+    </section>
+    
+<!--Enquiry-->
+    <center><section id="enquiry">
+      <form onsubmit="handle(); reset(); return false;">
+      <div class="title"><br>
+      
+        <h2>Enquiry</h2>
+        <p>
+         Drop your questions We will reach you soon.
+        </p>
+      </div>
+       <div class="form">
+        <div class="row">
+          <input type="text" name="" placeholder="First Name" id="name1" required/>
+          <input type="text" name="" placeholder="Last Name" id="name2" required/>
+        </div>
+        <div class="row">
+          <input type="email" name="" placeholder="Email Address" id="email" required/>
+          <input type="tel" name="" placeholder="Mobile No" id="mob" required/>
+
+        </div>
+        <div class="row2">
+          <textarea placeholder="Message" id="message" required></textarea>
+        </div>
+        <div class="row2">
+          <input type="submit" value="Submit" style="outline-color:cornflowerblue; outline-style:groove; cursor:pointer;"/>
+        </div>
+       </div>
+       </form>
+    </section></center>
+        
+    <!--Contact-->
+    <center><section id="contact" class="service-box2">
+      <div class="title">
+        <h2>Contact Us</h2>
+        <h3 style="color: white; align-text:center;">SIDDHI AUDIO & VISUAL SERVICES<br>
+        GSTIN No. : 27AVHPK5963C1ZH</h3>
+        <p><b>Name : Jayesh Korde</b></p>
+        <p><b>Mobile No : <a href="tel:9769588903"><k class="info">9769588903</k></a>/<a href="tel:9867108246"><k class="info">9867108246</k></a>
+        <p><b>Email : <a href="mailto:jayeshkorde123@gmail.com"><k class="info">jayeshkorde123@gmail.com</k></a></b></p>
+        <p>Address : JOGESHWARI (E)<br>
+            Mumbai - 400060
+        </p>
+      </div>
+    </section></center>    
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function handle(){
+        Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "kunalsapkal002@gmail.com",
+    Password : "25467CBE1C97851503C2275D48C6178E723F",
+    To : 'kunalsapkal002@gmail.com',
+    From : 'kunalsapkal67@gmail.com',
+    Subject : "New Contact Form Enquiry",
+    Body : "name : " + document.getElementById("name1").value + " " + document.getElementById("name2").value
+            + "<br>" "mob no : " + document.getElementById("mob").value + "<br>"
+    + "<br> Email : "+ document.getElementById("email").value+"<br>"
+    +document.getElementById("message").value
+}).then(message => alert("Details Submitted Successfully")
+);
+}
+</script>
+  </body>
+  </html>
